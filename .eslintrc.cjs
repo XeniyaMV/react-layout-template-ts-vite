@@ -20,6 +20,11 @@ module.exports = {
     project: './tsconfig.json',
   },
   plugins: ['react-refresh', '@typescript-eslint', 'prettier'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   rules: {
     'no-debugger': 'warn',
     'no-console': 'warn',
